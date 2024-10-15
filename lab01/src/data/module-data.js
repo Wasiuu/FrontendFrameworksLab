@@ -1,62 +1,62 @@
 export const cars = [
   {
     id: 1,
-    brand: "Audi",
-    registrationNumber: "YX-157",
-    year: 2014
+    brand: "Honda",
+    registrationNumber: "IG-434",
+    year: 2004
   },
   {
     id: 2,
-    brand: "Audi",
-    registrationNumber: "MV-350",
-    year: 2006
+    brand: "Toyota",
+    registrationNumber: "NJ-789",
+    year: 2012
   },
   {
     id: 3,
     brand: "Toyota",
-    registrationNumber: "XU-799",
-    year: 2003
+    registrationNumber: "GR-672",
+    year: 2002
   },
   {
     id: 4,
-    brand: "Audi",
-    registrationNumber: "TC-733",
-    year: 2020
+    brand: "Ford",
+    registrationNumber: "GL-075",
+    year: 2011
   },
   {
     id: 5,
     brand: "Audi",
-    registrationNumber: "PE-047",
-    year: 2019
+    registrationNumber: "GH-739",
+    year: 2005
   },
   {
     id: 6,
-    brand: "Mercedes",
-    registrationNumber: "BU-201",
-    year: 2023
+    brand: "Ford",
+    registrationNumber: "IS-741",
+    year: 2016
   },
   {
     id: 7,
-    brand: "Toyota",
-    registrationNumber: "SH-627",
-    year: 2022
+    brand: "Mercedes",
+    registrationNumber: "KT-540",
+    year: 2018
   },
   {
     id: 8,
     brand: "BMW",
-    registrationNumber: "LX-908",
-    year: 2005
+    registrationNumber: "ON-688",
+    year: 2012
   },
   {
     id: 9,
-    brand: "Ford",
-    registrationNumber: "YM-080",
-    year: 2009
+    brand: "BMW",
+    registrationNumber: "EJ-084",
+    year: 2016
   },
   {
     id: 10,
-    brand: "BMW",
-    registrationNumber: "EF-208",
-    year: 2024
+    brand: "Mercedes",
+    registrationNumber: "IM-330",
+    year: 2005
   },
 ];

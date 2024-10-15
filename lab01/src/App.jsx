@@ -23,10 +23,10 @@ const menuItems = [
   },
   {
     id: 3,
-    label: "Lab2",
-    url: "/lab2",
-    urlPattern: "/lab2",
-    element: <Lab2 />
+    label: "Lab 2",
+    url: "/lab2/0",
+    urlPattern: "/lab2/:id",
+    element: <Lab2 />,
   },
   {
     id: 4,
@@ -41,9 +41,10 @@ function App() {
   return (
     <RootLayout items={menuItems}>
       <Routes>
-        {menuItems.map(item => (
-          <Route key={item.id} path={item.urlPattern} element={item.element} />
-        ))}
+        <Route path="/" element={<Home />} />
+        <Route path="/lab1" element={<Lab1 />} />
+        <Route path="/lab2/:id" element={<Lab2 />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </RootLayout>
   );
