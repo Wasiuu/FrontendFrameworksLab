@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "generate-data": "node src/module-data-generator.cjs 10",
+    "generate-data": "node src/data/module-data-generator.cjs 10",
     "start": "npm run generate-data && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

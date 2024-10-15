@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 const CarProfile = ({ car }) => {
@@ -13,7 +14,6 @@ const CarProfile = ({ car }) => {
     );
 };
 
-// Prosty styl dla komponentu
 const styles = {
     container: {
         border: '1px solid #ccc',
@@ -27,5 +27,15 @@ const styles = {
         marginBottom: '10px'
     }
 };
+CarProfile.propTypes = {
+    car: PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        brand: PropTypes.string.isRequired,
+        model: PropTypes.string.isRequired,
+        year: PropTypes.number.isRequired,
+        registrationNumber: PropTypes.string.isRequired,
+    }).isRequired,
+};
+
 
 export default CarProfile;
