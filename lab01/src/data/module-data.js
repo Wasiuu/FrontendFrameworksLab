@@ -1,62 +1,62 @@
 export const cars = [
   {
     id: 1,
-    brand: "Toyota",
-    registrationNumber: "HV-237",
-    year: 2011
+    brand: "Audi",
+    registrationNumber: "VS-043",
+    year: 2021
   },
   {
     id: 2,
-    brand: "Honda",
-    registrationNumber: "TT-655",
-    year: 2018
-  },
-  {
-    id: 3,
-    brand: "Toyota",
-    registrationNumber: "NA-265",
-    year: 2011
-  },
-  {
-    id: 4,
-    brand: "Toyota",
-    registrationNumber: "HE-499",
-    year: 2005
-  },
-  {
-    id: 5,
-    brand: "Mercedes",
-    registrationNumber: "IB-197",
+    brand: "Ford",
+    registrationNumber: "EQ-351",
     year: 2009
   },
   {
-    id: 6,
-    brand: "Toyota",
-    registrationNumber: "PE-277",
+    id: 3,
+    brand: "Honda",
+    registrationNumber: "DW-772",
     year: 2004
+  },
+  {
+    id: 4,
+    brand: "Ford",
+    registrationNumber: "PL-833",
+    year: 2018
+  },
+  {
+    id: 5,
+    brand: "BMW",
+    registrationNumber: "BA-584",
+    year: 2017
+  },
+  {
+    id: 6,
+    brand: "Ford",
+    registrationNumber: "TW-722",
+    year: 2009
   },
   {
     id: 7,
     brand: "Audi",
-    registrationNumber: "GZ-972",
-    year: 2024
+    registrationNumber: "DP-987",
+    year: 2011
   },
   {
     id: 8,
-    brand: "Toyota",
-    registrationNumber: "YW-406",
-    year: 2004
+    brand: "BMW",
+    registrationNumber: "DE-926",
+    year: 2008
   },
   {
     id: 9,
-    brand: "Honda",
-    registrationNumber: "GE-340",
-    year: 2014
+    brand: "Audi",
+    registrationNumber: "NM-574",
+    year: 2019
   },
   {
     id: 10,
-    brand: "Honda",
-    registrationNumber: "CT-654",
+    brand: "Mercedes",
+    registrationNumber: "ZF-181",
     year: 2015
   },
 ];
