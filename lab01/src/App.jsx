@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Lab1 from './pages/Lab1';
 import Lab2 from './pages/Lab2';
 import NotFound from './pages/NotFound';
+import './styles/app.css'
 
 const menuItems = [
   {
