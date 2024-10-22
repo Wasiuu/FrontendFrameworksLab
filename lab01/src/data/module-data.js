@@ -1,62 +1,62 @@
 export const cars = [
   {
     id: 1,
-    brand: "Audi",
-    registrationNumber: "VS-043",
-    year: 2021
-  },
-  {
-    id: 2,
-    brand: "Ford",
-    registrationNumber: "EQ-351",
+    brand: "BMW",
+    registrationNumber: "TK-480",
     year: 2009
   },
   {
-    id: 3,
+    id: 2,
     brand: "Honda",
-    registrationNumber: "DW-772",
-    year: 2004
+    registrationNumber: "GX-056",
+    year: 2021
+  },
+  {
+    id: 3,
+    brand: "Ford",
+    registrationNumber: "WE-177",
+    year: 2023
   },
   {
     id: 4,
-    brand: "Ford",
-    registrationNumber: "PL-833",
-    year: 2018
+    brand: "Audi",
+    registrationNumber: "ML-316",
+    year: 2007
   },
   {
     id: 5,
     brand: "BMW",
-    registrationNumber: "BA-584",
-    year: 2017
+    registrationNumber: "VX-758",
+    year: 2007
   },
   {
     id: 6,
-    brand: "Ford",
-    registrationNumber: "TW-722",
-    year: 2009
+    brand: "Audi",
+    registrationNumber: "PS-405",
+    year: 2004
   },
   {
     id: 7,
-    brand: "Audi",
-    registrationNumber: "DP-987",
-    year: 2011
+    brand: "BMW",
+    registrationNumber: "JZ-069",
+    year: 2023
   },
   {
     id: 8,
-    brand: "BMW",
-    registrationNumber: "DE-926",
-    year: 2008
+    brand: "Ford",
+    registrationNumber: "UK-277",
+    year: 2013
   },
   {
     id: 9,
-    brand: "Audi",
-    registrationNumber: "NM-574",
-    year: 2019
+    brand: "Honda",
+    registrationNumber: "TE-453",
+    year: 2024
   },
   {
     id: 10,
     brand: "Mercedes",
-    registrationNumber: "ZF-181",
-    year: 2015
+    registrationNumber: "QW-658",
+    year: 2023
   },
 ];

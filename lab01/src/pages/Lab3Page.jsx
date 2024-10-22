@@ -1,20 +1,33 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // Importuj prop-types
+import FlexContainer from '../components/FlexContainer';
+import { Card } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
-const Lab3Page = ({ name, id }) => {
+const data = [
+    { name: "Ala", id: 1 },
+    { name: "Ela", id: 2 },
+    { name: "Karol", id: 3 },
+    { name: "Ola", id: 4 },
+    { name: "Monik", id: 5 },
+    { name: "Robert", id: 6 },
+];
+
+const Item = ({ name, id }) => (
+    <Card style={{ width: '18rem' }} className="border mb-3 p-3 ms-3">
+        <Card.Body>
+            <Card.Title>{name}</Card.Title>
+            <Card.Text>ID: {id}</Card.Text>
+        </Card.Body>
+    </Card>
+);
+
+const Lab3Page = () => {
     return (
         <div>
-            <h3>Szczegóły osoby o ID: {id}</h3>
-            <p>Imię i nazwisko: {name}</p>
-            {/* Dodaj inne informacje lub komponenty w zależności od potrzeby */}
+            <h2>Laboratorium 3</h2>
+            <FlexContainer element={Item} data={data} />
         </div>
     );
-};
-
-
-Lab3Page.propTypes = {
-    name: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired
 };
 
 export default Lab3Page;

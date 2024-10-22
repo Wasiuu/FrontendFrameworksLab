@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Lab1 from './pages/Lab1';
 import Lab2 from './pages/Lab2';
 import NotFound from './pages/NotFound';
-import { Lab3Page } from './pages/Lab3Page';
+import Lab3Page from './pages/Lab3Page';
 import './styles/app.css'
 
 const menuItems = [
