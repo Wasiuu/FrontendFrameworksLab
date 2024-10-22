@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Lab1 from './pages/Lab1';
 import Lab2 from './pages/Lab2';
 import NotFound from './pages/NotFound';
+import { Lab3Page } from './pages/Lab3Page';
 import './styles/app.css'
 
 const menuItems = [
@@ -34,7 +35,15 @@ const menuItems = [
     label: "NotFound",
     urlPattern: "/*",
     element: <NotFound />
+  },
+  {
+    id: 5,
+    label: "Lab3",
+    url: "/lab3",
+    urlPattern: "/lab3",
+    element: <Lab3Page></Lab3Page>,
   }
+
 ];
 
 
